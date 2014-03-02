@@ -10,8 +10,7 @@
 	    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 	</head>
 	<body>
-
-	<?php
+		<?php
 		$address = $_POST['addressInput'];
 		$city = $_POST['cityInput'];
 		$country = $_POST['countryInput'];
@@ -30,7 +29,8 @@
 
 		echo "<p id='#hideLat'>" . $latitude . "</p>";
 		echo "<p id='#hideLon'>" . $longitude . "</p>";
-	?>
+		?>
+
 
 		<h1>Results Page</h1>
 		<h2>You chose &ltInsert Country Here&gt</h2>
