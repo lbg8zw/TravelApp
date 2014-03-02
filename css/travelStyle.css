@@ -1,5 +1,59 @@
 body 
 {
-	background-color: #7BC1FF;
+	/*background-image:url('http://fc04.deviantart.net/fs71/i/2012/020/c/7/city_sketch_by_miikedv-d4n1br0.jpg');*/
+	background-image:url('http://illustratedmaps.info/wp-content/uploads/2013/04/prague-cityscape.jpg');
+	background-repeat: no-repeat;
+	/*background: rgba(250,250,250,0.5);
+	background: rgb(0,0,0) transparent;*/
+	background-size: 100%;
+	/*background-position: center;*/
+	-webkit-background-size: 100%;
+	background-position: fixed;
+	opacity: 0.85;
+	filter:alpha(opacity=60);
+}
+
+h1, h2, #weatherDiv {
 	text-align: center;
+}
+
+#twoDivs {
+	float:both;
+	min-width:1000px;
+	overflow: hidden;
+}
+
+#weatherDiv {
+	
+}
+
+#poiDiv {
+	float: left;
+	margin-left: 300px;
+	width: 650px;
+}
+
+#restaurantDiv {
+	float: right;	
+	width: 650px;
+}
+
+table {
+	width: 300px;
+}
+
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+}
+
+th,td
+{
+padding:5px;
+}
+
+th
+{
+text-align:left;
 }
