@@ -1,9 +1,9 @@
 <?php
 	$address = $_POST['addressInput'];
 	$city = $_POST['cityInput'];
-	$zip = $_POST['zipInput'];
+	$country = $_POST['countryInput'];
 
-	$userDest = $address . ", " . $city . ", " . $zip;
+	$userDest = $address . ", " . $city . ", " . $country;
 	$begGeoURL = "https://maps.googleapis.com/maps/api/geocode/json?address=";
 	$begGeoURL = $begGeoURL . urlencode($begGeoURL) . "&sensor=false";
 
