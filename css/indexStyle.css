@@ -1,11 +1,21 @@
 body
 {
-background-image:url('http://www.business.hr/UserDocsImages/mmraz/svijet.jpg');
-background-color:#cccccc;
-background-size: 100%;
--webkit-background-size: 100%;
+	background-image:url('http://www.business.hr/UserDocsImages/mmraz/svijet.jpg');
+	background-color:#cccccc;
+	background-size: 100%;
+	-webkit-background-size: 100%;
 } 
 
-body {
+div.content {
+	margin-top:100px;
 	text-align: center;
+	color:black;
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:600px;
+	border-radius:25px;
+	box-shadow: 10px 10px 5px #00BFFF;
+	margin-left:auto;
+	margin-right:auto;
 }
