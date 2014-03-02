@@ -1,11 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Travel App</title>
+		<link rel="stylesheet" type="text/css" href="css/indexStyle.css">
+		<!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 	</head>
 	<body>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="js/bootstrap.min.js"></script>
+
 		<h1>[App Name Here]</h1>
 		<h2>"Go one place to travel many places"</h2>
-		<iframe title="carpoolworld plugin" src="http://www.carpoolworld.com/carpool_.html?&olat=&olon=&lat=&lon=&home_street=&hf=&hp=&hz=&hc=&rh=3&work_street=&to=&ws=&wz=&wc=&rw=3&en=&nh=&event=&WIDGET=1&plugin_height=250&plugin_width=250" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:250px;"></iframe>
+
+		</br></br>
+		<p> Welcome to our site! Please enter your expected location to receive more information about travel details and results.</p>
+		<form name="input" action="html_form_action.php" method="get">
+			Address: <input type="text" name="addressHere"></br>
+			City: <input type="text" name="cityHere"></br>
+			Zip Code: <input type="text" name="zipCodeHere"></br>
+		</form>
 	</body>
 </html>
+
+
+	<!--<iframe title="carpoolworld plugin" src="http://www.carpoolworld.com/carpool_.html?&olat=&olon=&lat=&lon=&home_street=&hf=&hp=&hz=&hc=&rh=3&work_street=&to=&ws=&wz=&wc=&rw=3&en=&nh=&event=&WIDGET=1&plugin_height=250&plugin_width=250" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:250px;"></iframe>-->
