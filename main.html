@@ -5,9 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Travel App</title>
-		<link href="css/indexStyle.css" rel="stylesheet">
+		<link href="TravelApp/css/indexStyle.css" rel="stylesheet">
 		<!-- Bootstrap -->
-	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="TravelApp/css/bootstrap.min.css" rel="stylesheet">
 
 	</head>
 	<body>
@@ -17,7 +17,7 @@
 			</br>
 			<p> Welcome to Viajes! Please enter your expected location </br> to receive more information about travel details.</p>
 			</br>
-			<form name="input" action="travel.php" method="post">
+			<form name="input" action="TravelApp/Logic/geocode.php" method="post">
 				<label>Address: <input type="text" name="addressHere"></label></br>
 				<label>City: <input type="text" name="cityHere"></label>
 				<label>Country: 
@@ -267,15 +267,14 @@
 				</select></label>
 				</br></br>
 				<!--Country: <input type="text" name="zipCodeHere"></br></br>-->
-				<input type="submit" value="Let's go!" style="padding: 5px 20px;">
+				<input id="submitForm" type="submit" value="Let's go!" style="padding: 5px 20px;">
 			</form></div></span>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
-    	<script src="js/bootstrap.min.js"></script>
-    	<!-- Latest compiled and minified JavaScript -->
-		<!--<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+    	<script src="TravelApp/js/bootstrap.min.js"></script>
+		<p id='hideData'></p>
 	</body>
 </html>
 
